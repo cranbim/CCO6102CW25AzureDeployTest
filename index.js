@@ -12,6 +12,8 @@ const threeMinutes= 3*60*1000
 const oneHour = 1*60*60*1000
 
 const dotenv=require('dotenv').config()
+const daveSecret=process.env.daveSecret
+console.log("Secret: ", daveSecret)
 const mongoDBUsername=process.env.mongoDBUsername
 const mongoDBPassword=process.env.mongoDBPassword
 const mongoAppName=process.env.mongoAppName
