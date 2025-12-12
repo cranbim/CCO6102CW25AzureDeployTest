@@ -5,20 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.3",
-    "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "express-session": "^1.18.2",
-    "mongoose": "^8.19.3",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.10"
   }
 }
