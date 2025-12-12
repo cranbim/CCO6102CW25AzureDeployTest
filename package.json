@@ -2,6 +2,9 @@
   "name": "simplesocialstarter",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "20.x || 22.x || 24.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

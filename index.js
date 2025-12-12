@@ -7,11 +7,13 @@ const userModel=require('./models/users.js')
 
 const dotenv=require('dotenv').config()
 
+const port = process.env.PORT || 3000
+
 const secret=process.env.davesecret
 console.log(secret)
 
-app.listen(3000, ()=>{
-    console.log('listening on port 3000')
+app.listen(port, ()=>{
+    console.log('listening on port', port)
 })
 
 app.use(express.static('public'))
